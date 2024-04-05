@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, LogoShape, NavContainer, ButtonContainer, NavItem, NavLink,
-NavList } from './NavbarElemets';
+    NavList, MenuIcon} from './NavbarElemets';
 import { Button } from '../Button/ButtonElements';
 
 function Navbar() {
@@ -9,6 +9,8 @@ function Navbar() {
         <NavContainer>
             <LogoShape>
             </LogoShape>
+
+            <MenuIcon></MenuIcon>
 
             <NavList>
                 <NavItem>
