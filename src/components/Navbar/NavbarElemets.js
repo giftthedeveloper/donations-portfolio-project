@@ -13,7 +13,7 @@ export const MenuIcon = styled(MenuRounded)`
   display: none !important;
 
 
-  @media (max-width: 450px) {
+  @media (max-width: 650px) {
     display: block !important;
     color: black;
     margin-right: 30px;

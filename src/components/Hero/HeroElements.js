@@ -7,7 +7,15 @@ import circleImg from './image-donation-project.jpg'
 export const HeroContainer = styled.div`
     background-color: white;
     display: flex;
-    height: 450px;
+    height: 800px;
+
+    @media (max-width: 650px) {
+        height: 800px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+   
+  }
 
 `;
 
@@ -20,12 +28,23 @@ export const LeftHeroContainer = styled.div`
     padding-left: 30px;
     padding-top: 60px;
 
+
+    @media (max-width: 650px) {
+        width: 100%
+
+  }
+
 `;
 
 export const AuthorText = styled.h3`
     /* font-size: 14px; */
     color: #13829B;
-    padding-left: 0px
+    padding-left: 0px;
+
+    @media (max-width: 650px) {
+        font-size: 14px
+   
+  }
 `;
 
 export const HeroText = styled.h1`
@@ -34,6 +53,11 @@ export const HeroText = styled.h1`
     padding-bottom: 20px;
     margin: 0px;
     line-height: 1.2;
+
+    @media (max-width: 650px) {
+        font-size: 34px
+   
+  }
 `;
 
 export const SubText = styled.p`
@@ -103,8 +127,17 @@ export const RightHeroContainer = styled.div`
     align-items: flex-start; /* Align items to the top */
     text-align: left;
     padding-right: 50px;
-    
 
+    @media (max-width: 650px) {
+        width: 100%;
+        margin-top: 20px;
+        align-items: flex-end;
+        margin-right: 0px;
+        padding-right: 0px;
+        /* display: flex; */
+        flex-direction: column;
+    }
+    
 `;
 
 export const MainImage = styled.div`
@@ -119,8 +152,18 @@ export const MainImage = styled.div`
     margin-top: 30px;
     background-image: url(${donationimg});
     background-size: cover;
-    padding-right: 30px;
+    padding-right: 20px;
+
+    @media (max-width: 650px) {
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        padding-right: 10px;
+    
+   
+  }
     `;
+    
 
 export const OrangeRectangle = styled.div`
   background-color: #FCC29A;
@@ -131,6 +174,14 @@ export const OrangeRectangle = styled.div`
   padding-right: 10px;
   position: relative;
   z-index: 0;
+
+  @media (max-width: 650px) {
+        width: 90%;
+        padding-right: 0px;
+
+
+   
+  }
 
 `;
 
@@ -145,6 +196,15 @@ export const BlueRectangle = styled.div`
     left: 75%; 
     top: 60%; 
     transform: translate(-50%, -50%);
+
+    @media (max-width: 650px) {
+        left: 65%; 
+        top: 80%; 
+        width: 80px;
+        height: 80px;
+
+   
+  }
 `;
 
 export const CircleImageClip = styled.div`
@@ -160,5 +220,14 @@ export const CircleImageClip = styled.div`
     top: 42%; 
     transform: translate(-50%, -50%);
     border-radius: 50%;
+
+    @media (max-width: 650px) {
+        left: 45%; 
+        top: 71%; 
+        width: 80px;
+        height: 80px;
+    }
+
+
 
 `;
