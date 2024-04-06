@@ -17,9 +17,13 @@ export const MenuIcon = styled(MenuRounded)`
     display: block !important;
     color: black;
     margin-right: 30px;
+    font-size: 18px;
+
+    &:hover {
+    color: #13829B;
+    
   }
-  
-`;
+}`;
 
 export const NavContainer = styled.div`
   display: flex;
