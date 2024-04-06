@@ -28,7 +28,7 @@ function Navbar() {
             </NavList>
 
             <ButtonContainer>
-                <Button>Call me</Button>
+                <Button>Call Us</Button>
             </ButtonContainer>
         </NavContainer>
 
