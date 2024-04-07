@@ -8,6 +8,7 @@ export const HeroContainer = styled.div`
     background-color: white;
     display: flex;
     height: 800px;
+    position: fixed;
 
     @media (max-width: 650px) {
         height: 800px;
@@ -31,7 +32,12 @@ export const LeftHeroContainer = styled.div`
 
     @media (max-width: 650px) {
         width: 100%
+  }
 
+  @media (max-width: 400px) {
+        width: 90%;
+      
+   
   }
 
 `;
@@ -42,7 +48,12 @@ export const AuthorText = styled.h3`
     padding-left: 0px;
 
     @media (max-width: 650px) {
-        font-size: 14px
+        font-size: 14px;
+  }
+
+  @media (max-width: 400px) {
+        font-size: 12px;
+      
    
   }
 `;
@@ -56,6 +67,11 @@ export const HeroText = styled.h1`
 
     @media (max-width: 650px) {
         font-size: 34px
+  }
+
+
+  @media (max-width: 400px) {
+        font-size: 30px;      
    
   }
 `;
@@ -65,6 +81,13 @@ export const SubText = styled.p`
     color: #333333;
     width: 80%;
     padding-bottom: 20px;
+
+    @media (max-width: 400px) {
+        font-size: 12px;
+        padding-bottom: 0px;
+      
+   
+  }
 `;
 
 export const HighlightedText = styled.span`
@@ -130,7 +153,7 @@ export const RightHeroContainer = styled.div`
 
     @media (max-width: 650px) {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 0px;
         align-items: flex-end;
         margin-right: 0px;
         padding-right: 0px;
@@ -156,6 +179,7 @@ export const MainImage = styled.div`
 
     @media (max-width: 650px) {
         position: absolute;
+        margin-top: 0px;
         width: 50%;
         height: 80%;
         padding-right: 10px;
@@ -222,8 +246,8 @@ export const CircleImageClip = styled.div`
     border-radius: 50%;
 
     @media (max-width: 650px) {
-        left: 45%; 
-        top: 71%; 
+        left: 15%; 
+        top: 90%; 
         width: 80px;
         height: 80px;
     }
