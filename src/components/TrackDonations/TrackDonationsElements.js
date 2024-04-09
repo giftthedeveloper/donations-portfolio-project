@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import imgcardimg from './donation-img-card-a.jpg'
+import imgcardimg from './track-donation-card-img.jpg';
 
 export const MainContainer = styled.div`
     display: flex;
@@ -13,7 +13,7 @@ export const MainContainer = styled.div`
 `;
 
 
-export const LeftContainer = styled.div`
+export const RightContainer = styled.div`
     height: 95%;
     width: 50%;
     background-color: white;
@@ -23,7 +23,7 @@ export const LeftContainer = styled.div`
 
 `;
 
-export const RightContainer = styled.div`
+export const LeftContainer = styled.div`
     height: 95%;
     width: 50%;
     background-color: white;
@@ -35,10 +35,18 @@ export const ImgDiv = styled.div`
     position: absolute;
     width: 50%;
     height: 70%;
-    background-color: #FCC29A;
+    background-color: #29D2E4;
     padding-top: 0px;
-    /* margin-left: 10%; */
+    margin-left: 20%;
     margin-top: 10%; 
+`;
+
+export const RectangleDiv = styled.div`
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: #FDE9C9;
+    padding-top: 0px;
 `;
 
 

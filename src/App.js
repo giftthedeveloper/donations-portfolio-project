@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ListComponent from './components/ListComponent';
 import ScheduleDonationsComponent from './components/ScheduleDonations';
+import TrackDonations from './components/TrackDonations';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <ListComponent />
       <ScheduleDonationsComponent />
+      <TrackDonations />
     </div>
   );
 }
