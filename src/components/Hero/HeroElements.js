@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
     background-color: white;
     display: flex;
     height: 800px;
-    position: fixed;
+    /* position: fixed; */
 
     @media (max-width: 650px) {
         height: 800px;
@@ -37,7 +37,6 @@ export const LeftHeroContainer = styled.div`
   @media (max-width: 400px) {
         width: 90%;
       
-   
   }
 
 `;
@@ -183,16 +182,14 @@ export const MainImage = styled.div`
         width: 50%;
         height: 80%;
         padding-right: 10px;
-    
    
   }
     `;
     
-
 export const OrangeRectangle = styled.div`
   background-color: #FCC29A;
-  width: 80%;
-  height: 40%;
+  width: 90%;
+  height: 30%;
   align-self: flex-end;
   margin: 0px;
   padding-right: 10px;
@@ -201,6 +198,7 @@ export const OrangeRectangle = styled.div`
 
   @media (max-width: 650px) {
         width: 90%;
+        height: 20%;
         padding-right: 0px;
 
 
