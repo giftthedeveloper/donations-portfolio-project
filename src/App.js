@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import ListComponent from './components/ListComponent';
 import ScheduleDonationsComponent from './components/ScheduleDonations';
 import TrackDonations from './components/TrackDonations';
+import DonateAnonymously from './components/DonateAnonymously';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ListComponent />
       <ScheduleDonationsComponent />
       <TrackDonations />
+      <DonateAnonymously />
     </div>
   );
 }
