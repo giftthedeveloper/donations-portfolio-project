@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import imgcardimg from './donation-img-card-a.jpg'
 
-export const MainContainer = styled.div`
+export const Maincontainer = styled.div`
     display: flex;
     align-items: center;
     padding-top: 8px;
@@ -68,3 +68,4 @@ export const BodyText = styled.p`
     font-size: 14px;
     line-height: 1.5;
 `;
+
