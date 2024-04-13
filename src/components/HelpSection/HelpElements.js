@@ -12,6 +12,11 @@ export const MainComponent = styled.div`
     background-color: white;
     height: 500px;
     width: 100%;
+
+    @media (max-width: 650px) {
+    display: none;
+    
+  }
     
 `;
 

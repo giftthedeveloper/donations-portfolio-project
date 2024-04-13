@@ -10,19 +10,21 @@ export const MainComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 420px;
+    height: 680px;
+    margin-bottom: 0px;
+    margin: 0px
   }
 `;
 export const MainItemComponent = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80%;
+    height: 100%;
     width: 100%;  
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 420px;
+    height: 600;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -99,18 +101,34 @@ export const Button = styled.button`
     &:hover {
     background-color: #13829B;
     border-color: white;
+    }
 `;
 export const ButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    height: 10px;
+
+    @media (max-width: 650px) {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+    
+
 
     /* margin-bottom: 10px; */
 `;
 
 export const ButtonText = styled.p`
   color: #13829B;
+
   &:hover {
-    color: white;
+    color: #13829B;
+}
+
+@media (max-width: 650px) {
+   font-size: 10px;
+  }
 `;
