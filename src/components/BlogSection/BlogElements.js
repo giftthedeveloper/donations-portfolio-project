@@ -10,7 +10,7 @@ export const MainComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 420px;
+    height: 750px;
   }
 `;
 export const MainItemComponent = styled.div`
@@ -22,7 +22,7 @@ export const MainItemComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 420px;
+    height: 680px;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -99,18 +99,31 @@ export const Button = styled.button`
     &:hover {
     background-color: #13829B;
     border-color: white;
+    }
 `;
 export const ButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    @media (max-width: 650px) {
+    margin-top: 15px;
+  }
+
+    
+
 
     /* margin-bottom: 10px; */
 `;
 
 export const ButtonText = styled.p`
   color: #13829B;
+
   &:hover {
-    color: white;
+    color: #13829B;
+}
+
+@media (max-width: 650px) {
+   font-size: 10px;
+  }
 `;
