@@ -19,7 +19,6 @@ export const MainContainer = styled.div`
     
 `;
 
-
 export const LeftContainer = styled.div`
     height: 95%;
     width: 50%;
@@ -34,7 +33,6 @@ export const LeftContainer = styled.div`
         margin-left: 60px;
 
     }
-
 `;
 
 export const RightContainer = styled.div`
