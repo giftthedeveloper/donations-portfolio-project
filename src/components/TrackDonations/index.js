@@ -1,6 +1,7 @@
 import React from 'react'
 import { BodyText, HeaderText, ImgCard, ImgDiv, LeftContainer, MainContainer, RectangleDiv, RightContainer } from './TrackDonationsElements'
 
+
 function TrackDonations() {
   return (
     <MainContainer>

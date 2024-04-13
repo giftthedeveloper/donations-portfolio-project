@@ -9,6 +9,12 @@ export const MainContainer = styled.div`
     background-color: white;
     height: 500px;
     width: 100%;
+
+    @media (max-width: 650px) {
+        flex-direction: column-reverse; 
+        height: 600px;
+        padding-top: 0px;
+    }
     
 `;
 
@@ -21,6 +27,13 @@ export const RightContainer = styled.div`
     padding-left: 50px;
     align-items: center;
 
+    @media (max-width: 650px) {
+        width: 100%; 
+        padding: 0px; 
+        margin-left: 60px;
+        /* margin-top: 10px; */
+    }
+
 `;
 
 export const LeftContainer = styled.div`
@@ -28,6 +41,16 @@ export const LeftContainer = styled.div`
     width: 50%;
     background-color: white;
     position: relative;
+
+    @media (max-width: 650px) {
+        width: 100%; 
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        order: 2;
+        margin-bottom: 10px;
+    }
 
 `;
 
@@ -38,7 +61,14 @@ export const ImgDiv = styled.div`
     background-color: #29D2E4;
     padding-top: 0px;
     margin-left: 20%;
-    margin-top: 10%; 
+    margin-top: 10%;
+
+    @media (max-width: 650px) {
+        width: 50%; 
+        height: 80%;
+        margin-right: 20%;
+        margin-top: 10%;
+    }
 `;
 
 export const RectangleDiv = styled.div`
@@ -47,6 +77,11 @@ export const RectangleDiv = styled.div`
     height: 30%;
     background-color: #FDE9C9;
     padding-top: 0px;
+
+    @media (max-width: 650px) {
+        
+        display: None;
+    }
 `;
 
 
@@ -60,13 +95,24 @@ export const ImgCard = styled.div`
     /* background-color: green; */
     margin-left: 10%;
     margin-top: 18%;
+
+    @media (max-width: 650px) {
+        width: 50%; 
+        height: 80%;
+        margin-right: 30%;
+        margin-top: 32%;
+    }
     
 `;
-
 
 export const HeaderText = styled.h1`
     color: #333;
     margin-top: 20%;
+
+    @media (max-width: 650px) {
+        /* padding-top: 20px; */
+        font-size: 20px;
+    }
 
 `;
 
@@ -75,4 +121,7 @@ export const BodyText = styled.p`
     width: 75%;
     font-size: 14px;
     line-height: 1.5;
+    @media (max-width: 650px) {
+        font-size: 12px;
+    }
 `;
