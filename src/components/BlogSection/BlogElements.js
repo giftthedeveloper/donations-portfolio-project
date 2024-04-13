@@ -10,14 +10,15 @@ export const MainComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 750px;
+    height: 650px;
+    margin-bottom: 0px;
   }
 `;
 export const MainItemComponent = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80%;
+    height: 100%;
     width: 100%;  
     margin-top: 15px;
 
@@ -106,6 +107,8 @@ export const ButtonContainer = styled.div`
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    height: 10px;
+
     @media (max-width: 650px) {
     margin-top: 15px;
   }
