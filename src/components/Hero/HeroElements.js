@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     /* position: fixed; */
 
     @media (max-width: 650px) {
-        height: 800px;
+        height: 600px;
         margin: 0px;
         display: flex;
         flex-direction: column;
@@ -146,18 +146,24 @@ export const RightHeroContainer = styled.div`
     padding-top: 60px;
     display: flex;
     justify-content: flex-end; 
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start; 
     text-align: left;
-    padding-right: 50px;
+    padding-right: 0px;
 
     @media (max-width: 650px) {
         width: 100%;
+        height: 100%;
         margin-top: 0px;
         align-items: flex-end;
         margin-right: 0px;
         padding-right: 0px;
         /* display: flex; */
         flex-direction: column;
+        height: 70%;
+        margin-top: 0px;
+        margin-bottom: 10%;
+        justify-content: flex-start; 
+
     }
     
 `;
@@ -177,12 +183,12 @@ export const MainImage = styled.div`
     padding-right: 20px;
 
     @media (max-width: 650px) {
+        top: 0;
         position: absolute;
         margin-top: 0px;
-        width: 50%;
-        height: 80%;
-        padding-right: 10px;
-   
+        width: 30%;
+        height: 100%;
+        padding-right: 40px;  
   }
     `;
     
@@ -195,14 +201,13 @@ export const OrangeRectangle = styled.div`
   padding-right: 10px;
   position: relative;
   z-index: 0;
+  margin-bottom: 50px;
 
   @media (max-width: 650px) {
-        width: 90%;
-        height: 20%;
+        width: 80%;
+        height: 65%;
         padding-right: 0px;
-
-
-   
+  
   }
 
 `;
@@ -211,7 +216,7 @@ export const BlueRectangle = styled.div`
     background-color: #29D2E4;
     width: 120px;
     height: 120px;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 2;
     opacity: 0.1;
     position: absolute;
@@ -220,11 +225,11 @@ export const BlueRectangle = styled.div`
     transform: translate(-50%, -50%);
 
     @media (max-width: 650px) {
-        left: 65%; 
-        top: 80%; 
-        width: 80px;
-        height: 80px;
-
+        left: 80%; 
+        top: 60%; 
+        width: 60px;
+        height: 60px;
+        opacity: 0.3;
    
   }
 `;
@@ -245,9 +250,10 @@ export const CircleImageClip = styled.div`
 
     @media (max-width: 650px) {
         left: 15%; 
-        top: 90%; 
-        width: 80px;
-        height: 80px;
+        top: 60%; 
+        width: 75px;
+        height: 75px;
+
     }
 
 
