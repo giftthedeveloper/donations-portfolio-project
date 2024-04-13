@@ -51,6 +51,8 @@ export const LeftContainer = styled.div`
         display: flex;
         order: 2;
         margin-bottom: 10px;
+        margin-top: 50px;
+
     }
 
 `;

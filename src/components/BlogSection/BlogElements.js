@@ -10,8 +10,9 @@ export const MainComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 650px;
+    height: 680px;
     margin-bottom: 0px;
+    margin: 0px
   }
 `;
 export const MainItemComponent = styled.div`
@@ -23,7 +24,7 @@ export const MainItemComponent = styled.div`
     margin-top: 15px;
 
     @media (max-width: 650px) {
-    height: 680px;
+    height: 600;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -110,7 +111,8 @@ export const ButtonContainer = styled.div`
     height: 10px;
 
     @media (max-width: 650px) {
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 40px;
   }
 
     
